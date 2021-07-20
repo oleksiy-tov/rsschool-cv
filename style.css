@@ -24,7 +24,7 @@
 
 .blockCenter {
    position: absolute;
-   top: 50%;
+   top: 105%;
    left: 50%;
    transform: translate(-50%, -50%);
 }
@@ -48,6 +48,11 @@
 .basicText {
    font-family: Calibri, fantasy;
    font-size: 20px;
+}
+
+.codeText {
+   font-family: Calibri, fantasy;
+   font-size: 15px;
 }
 
 hr {

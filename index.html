@@ -24,6 +24,10 @@
 
 
 
+
+
+
+
                </pre>
                <hr>
                <section itemscope itemtype="http://schema.org/Person">
@@ -53,38 +57,55 @@
                </ul>
                <hr>
                <p class="topicText">SAMPLE JS CODE:</p>
-               <pre>
-                  <code>
-  
+               <pre class="codeText">
+                  <code> 
    function sumInput() {
-
       let summ = 0;
-
-   let count = [];
-
-   let lich = 0;
-
-   do {
-
-      count.push(lich);
-
-   summ = summ + count[count.length - 1];
-
-   lich = +prompt(`Введіть чісло для підсумку! Або "0" коли закінчили.`, '');
-
+      let count = [];
+      let lich = 0;
+      do {
+        count.push(lich);
+        summ = summ + count[count.length - 1];
+        lich = +prompt(`Введіть чісло для підсумку! Або "0" коли закінчили.`, '');
+          }
+      while ( isFinite(lich) && lich != null && lich != "");
+      return(summ);
    }
-
-   while ( isFinite(lich) && lich != null && lich != "");
-
-   return(summ);
-
-   }
-
-   alert( sumInput() );
-
-   
-                </code><
-                   /pre>
+   alert( sumInput() ); 
+                  </code>
+                </pre>
+               <hr>
+               <p class="topicText">WORK EXPERIENCE:</p>
+               <p class="basicText">I have no experience of independent work, but I gained some experience solving
+                  examples from the <b><i>JavaScript tutorial</i></b>.
+                  Also, now I am gaining experience in the process of completing assignments in the courses
+                  <b><i>JS/Frontend-developer</i></b> from <i>RS School</i>.
+               </p>
+               <p class="basicText">At the moment, I know a little how to perform:</p>
+               <ul class="basicText">
+                  <li>Tasks review and estimations</li>
+                  <li>Projects and features development</li>
+                  <li>Code review skills</li>
+               </ul>
+               <hr>
+               <p class="topicText">EDUCATION:</p>
+               <p class="basicText">I independently studied the JavaScript tutorial located at <a
+                     href="https://learn.javascript.ru/" target="_blank">https://learn.javascript.ru/</a>
+                  And now I'm taking courses JS/Frontend-developer from RS School <a href="https://rs.school/js-stage0/"
+                     target="_blank">https://rs.school/js-stage0/</a></p>
+               <hr>
+               <p class="topicText">LANGUAGES:</p>
+               <ul class="basicText">
+                  <li><b><i>English</i></b> – Pre-Intermediate (but it will be better soon as I am currently studying on
+                     courses)</li>
+                  <li><b><i>Ukrainian</i></b> – Native Speaker</li>
+                  <li><b><i>Belarussian</i></b> – Native Speaker</li>
+                  <li><b><i>Russian</i></b> – Native Speaker</li>
+               </ul>
+               <hr>
+               <p class="topicText">SEVERAL FACTS ABOUT ME:</p>
+               <p class="basicText">My hobbies are travel, hiking, kayaking, cycling and aviation. I do not smoke,
+                  drink alcohol and only eat vegetarian food.</p>
                <hr>
             </main>
          </div>
