@@ -1,0 +1,63 @@
+.containerForMobile {
+   width: 100%;
+   max-width: 1024px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.backgroundHeaderColor {
+   background-color: #fdfdf7;
+}
+
+.backgroundMainColor {
+   background-color: #f7fdfc;
+}
+
+.parentCenter {
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   overflow: auto;
+}
+
+.blockCenter {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.imgStyle {
+   float: left;
+   margin: 5px 5px 5px 10px;
+   border-radius: 15px;
+}
+
+.headerText {
+   font-family: Arial Black, fantasy;
+   font-size: 40px;
+}
+
+.topicText {
+   font-family: Arial Black, fantasy;
+   font-size: 20px;
+}
+
+.basicText {
+   font-family: Calibri, fantasy;
+   font-size: 20px;
+}
+
+hr {
+   border: none;
+   background-color: #808080;
+   color: #11a28a;
+   height: 2px;
+}
+
+div {
+   padding: 10px;
+   border-radius: 15px;
+}
