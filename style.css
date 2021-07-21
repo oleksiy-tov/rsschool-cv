@@ -6,32 +6,29 @@
 }
 
 .backgroundHeaderColor {
-   background-color: #fdfdf7;
+   background-color: #E3FFE0;
 }
 
 .backgroundMainColor {
-   background-color: #f7fdfc;
+   background-color: #F6FFF5;
 }
 
-.parentCenter {
+.horizonCenter {
    width: 100%;
-   height: 100%;
-   position: fixed;
-   top: 0;
+   height: 275%;
+   position: absolute;
    left: 0;
-   overflow: auto;
+   right: 0;
+   margin: 0 auto;
 }
 
-.blockCenter {
-   position: absolute;
-   top: 105%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+.alignСenter{
+text-align: center;
 }
 
 .imgStyle {
    float: left;
-   margin: 5px 5px 5px 10px;
+   margin: 0px 0px 0px 0px;
    border-radius: 15px;
 }
 
@@ -65,4 +62,12 @@ hr {
 div {
    padding: 10px;
    border-radius: 15px;
+}
+
+table {
+   width: 100%;
+}
+
+#cell2 {
+    text-align: right;
 }
