@@ -6,24 +6,23 @@
 }
 
 .backgroundHeaderColor {
-   background-color: #E3FFE0;
+   background-color: #e3ffe0;
 }
 
 .backgroundMainColor {
-   background-color: #F6FFF5;
+   background-color: #f6fff5;
 }
 
 .horizonCenter {
    width: 100%;
-   height: 275%;
    position: absolute;
    left: 0;
    right: 0;
    margin: 0 auto;
 }
 
-.alignСenter{
-text-align: center;
+.alignСenter {
+   text-align: center;
 }
 
 .imgStyle {
@@ -69,5 +68,5 @@ table {
 }
 
 #cell2 {
-    text-align: right;
+   text-align: right;
 }
