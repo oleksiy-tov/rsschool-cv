@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One");
+
+body {
+  background-color: #FAE0F1;
+}
+
+#notice {
+  font-family: "Racing Sans One", cursive;
+  position: absolute; 
+  background-color: #fff;
+  padding: 0vh 1vh 0vh 1vh;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  top: 5%;
+  right: 25%;
+  margin-top: 5%;
+  font-size: 5vh;
+  color: #ff00e5;
+  width: 51%;
+  border: 3px solid #ff00e5;
+}
+
+#dl {
+  position: absolute; 
+  padding: 0vh 1vh 0vh 1vh;
+  top: 30%;
+  right: 35%;
+  margin-top: 5%;
+  font-size: 3vh;
+  color: #ff00e5;
+  font-family: 'Oswald', sans-serif;
+}
+
+.ua {
+  font-family: 'Oswald', sans-serif;
+  color: #000;
+  font-size: 3vh;
+}
+
+#compl {
+  font-family: "Racing Sans One", cursive;
+  position: absolute; 
+  background-color: #fff;
+  padding: 0vh 1vh 0vh 1vh;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  top: 5%;
+  right: 25%;
+  margin-top: 5%;
+  font-size: 5vh;
+  color: green;
+  width: 51%;
+  border: 3px solid #ff00e5;
+  display: none;
+}
+
+
+#reLoad {
+  font-family: 'Oswald', sans-serif;
+  position: absolute; 
+  top: 30%;
+  right: 42%;
+  margin-top: 5%;
+  font-size: 3vh;
+  display: none;
+}
+
+.u {
+  font-size: 2vh;
+}

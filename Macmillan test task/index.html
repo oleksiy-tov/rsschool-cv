@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="by">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>>Macmillan test task</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <button id="notice" disabled="true">Dear, select the punch card (or file) you want to download! <br />
+         <span class="ua">( Шановний, виберіть перфокарту (або файл), який потрібно завантажити! )</span></button>
+
+  <input id="dl" type="file" onchange="readFile(this)">
+
+  <button id="compl" disabled="true">The result was successfully uploaded to your folder "download"! <br />
+                      <span class="ua">( Результат успішно завантажився в вашу папку "download"! )</span></button>
+
+  <button id="reLoad" onClick="window.location.reload()"><b>Click to select new punch card (or file)</b> <br />
+                      <span class="u">Натисніть, щоб вибрати нову перфокарту (або файл)</span></button>
+
+  <script src="script.js"></script>
+
+</body>
+
+
+</html>
